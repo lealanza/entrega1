@@ -13,14 +13,19 @@
     <main>
         <section>
             <form>
-                <p><label>Nombre:</label><input type="text"></p>
-                <p><label>Apellido: </label><input type="text"></p>
+                <div>
+                    <p><label for="Nombre">Nombre:</label><input type="text" id="Nombre"></p>
+                    <p><label for="Apellido">Apellido: </label><input type="text" id="Apellido"></p>
+                </div>
+                
                 <p><label>Sexo:</label><input type="radio" name="sexo" value="hombre" id="Hombre">hombre<input type="radio" name="sexo" value="mujer" id="Mujer">mujer</p>
-                <p><label>Correo:<input type="email"> </label></p>
-                <p><label><input type="checkbox">Deseo recibir informacion sobre novedades y ofertas</label></p>
-                <p><label><input type="checkbox">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label></p>
-                <p><button>Enviar</button></p></form>
+                <p><label for="Correo">Correo:<input type="email" id="Correo"> </label></p>
+                <p><label for="check"><input type="checkbox" id="check">Deseo recibir informacion sobre novedades y ofertas</label></p>
+                <p><label for="check"><input type="checkbox" id="check">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label></p>
+                <p><button id="enviar">Enviar</buttoni></p></form>
         </section>
     </main>
 </body>
 </html>
+
+
